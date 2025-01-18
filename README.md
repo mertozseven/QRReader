@@ -137,7 +137,7 @@ Add the following key to your Info.plist:
 
 ## License
 
-This project is available under the MIT license. See the LICENSE file for more info.
+This project is available under the GNU General Public License v3.0. See the LICENSE file for more info.
 
 ## Author
 
