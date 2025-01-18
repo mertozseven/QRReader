@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/QRReader.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vcFlPhW/RReoD3jRX2mUxXmxuyY=
+		CeHDEx/CPceePVb5dH4ERUckakM=
 		</data>
 		<key>Modules/QRReader.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/QRReader.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+mn0xX2CPlv0ldbj+zeriiI/yRQ=
+		uQrTUQg4O3wZEVx+GZ/lmoq4YGw=
 		</data>
 		<key>Modules/QRReader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vcFlPhW/RReoD3jRX2mUxXmxuyY=
+		CeHDEx/CPceePVb5dH4ERUckakM=
 		</data>
 		<key>Modules/QRReader.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/QRReader.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6QDJ3k7CdHWsJ5eT3ymSPOuK7Qg=
+		nR3zJY/iSoeMHXSUjaTpaPNzI7c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qjxQGdmYG4aeoYOQD1pZ1RJdCUZG2NP7JiiffR27IKQ=
+			QD00yOMDzxlVG+ep6hEnwEsh8BBIWVGiB+d6W0IYY98=
 			</data>
 		</dict>
 		<key>Modules/QRReader.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+2anmNEIrLM1reE5Go3kV5Tk9MakBNaZZtNOUJlA1po=
+			UEsFhKSuNFQ4ZUxBUpTNTlupSqrySd6pOl8xJMptr/w=
 			</data>
 		</dict>
 		<key>Modules/QRReader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qjxQGdmYG4aeoYOQD1pZ1RJdCUZG2NP7JiiffR27IKQ=
+			QD00yOMDzxlVG+ep6hEnwEsh8BBIWVGiB+d6W0IYY98=
 			</data>
 		</dict>
 		<key>Modules/QRReader.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F9KhN9TrgPSMbEQ+JBO9JLCZcDjBiP0LxMW/dYMg0W8=
+			j6fi/gKbCbw8kl7BuffmUCPKaEuS4sBX6C6vVIj7xlo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

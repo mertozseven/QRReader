@@ -42,7 +42,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -475,7 +476,8 @@
               "Dynamic",
               "ObjC",
               "Override",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -497,7 +499,8 @@
             "moduleName": "QRReader",
             "declAttributes": [
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -645,93 +648,93 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRReader.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRReader.swift",
       "kind": "FloatLiteral",
-      "offset": 137,
+      "offset": 168,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRReader.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRReader.swift",
       "kind": "StringLiteral",
-      "offset": 234,
+      "offset": 265,
       "length": 44,
       "value": "\"Align the QR code within the frame to scan\""
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRReader.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 313,
+      "offset": 344,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRReader.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 352,
+      "offset": 383,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 357,
+      "offset": 388,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "StringLiteral",
-      "offset": 440,
+      "offset": 471,
       "length": 44,
       "value": "\"Align the QR code within the frame to scan\""
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 512,
+      "offset": 543,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 544,
+      "offset": 575,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 948,
       "length": 7,
       "value": "\"xmark\""
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1324,
+      "offset": 1355,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1572,
+      "offset": 1603,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1624,
+      "offset": 1655,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "filePath": "\/Users\/mertozseven\/Downloads\/QRReader\/QRReader\/QRScannerViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 1678,
       "length": 21,
       "value": "\"No QR code detected\""
     }
