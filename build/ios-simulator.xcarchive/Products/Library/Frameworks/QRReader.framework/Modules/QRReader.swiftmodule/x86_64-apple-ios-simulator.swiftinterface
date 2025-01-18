@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name QRReader
+@_exported import QRReader
+import Swift
+import UIKit
+import VisionKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class QRReader : ObjectiveC.NSObject {
+  public var overlayColor: UIKit.UIColor
+  public var cornerColor: UIKit.UIColor
+  public var instructionText: Swift.String
+  public var padding: CoreFoundation.CGFloat
+  public var windowSize: CoreFoundation.CGFloat
+  @objc override dynamic public init()
+  @_Concurrency.MainActor public func isScanningAvailable() -> Swift.Bool
+  @_Concurrency.MainActor public func presentScanner(from viewController: UIKit.UIViewController, completion: @escaping (Swift.String) -> Swift.Void)
+  @objc deinit
+}

@@ -1,0 +1,739 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "QRReader",
+    "printedName": "QRReader",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QRReader"
+      },
+      {
+        "kind": "Import",
+        "name": "VisionKit",
+        "printedName": "VisionKit",
+        "declKind": "Import",
+        "moduleName": "QRReader"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QRReader",
+        "printedName": "QRReader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "overlayColor",
+            "printedName": "overlayColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8QRReaderAAC12overlayColorSo7UIColorCvp",
+            "mangledName": "$s8QRReaderAAC12overlayColorSo7UIColorCvp",
+            "moduleName": "QRReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC12overlayColorSo7UIColorCvg",
+                "mangledName": "$s8QRReaderAAC12overlayColorSo7UIColorCvg",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC12overlayColorSo7UIColorCvs",
+                "mangledName": "$s8QRReaderAAC12overlayColorSo7UIColorCvs",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC12overlayColorSo7UIColorCvM",
+                "mangledName": "$s8QRReaderAAC12overlayColorSo7UIColorCvM",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerColor",
+            "printedName": "cornerColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8QRReaderAAC11cornerColorSo7UIColorCvp",
+            "mangledName": "$s8QRReaderAAC11cornerColorSo7UIColorCvp",
+            "moduleName": "QRReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC11cornerColorSo7UIColorCvg",
+                "mangledName": "$s8QRReaderAAC11cornerColorSo7UIColorCvg",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC11cornerColorSo7UIColorCvs",
+                "mangledName": "$s8QRReaderAAC11cornerColorSo7UIColorCvs",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC11cornerColorSo7UIColorCvM",
+                "mangledName": "$s8QRReaderAAC11cornerColorSo7UIColorCvM",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionText",
+            "printedName": "instructionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8QRReaderAAC15instructionTextSSvp",
+            "mangledName": "$s8QRReaderAAC15instructionTextSSvp",
+            "moduleName": "QRReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC15instructionTextSSvg",
+                "mangledName": "$s8QRReaderAAC15instructionTextSSvg",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC15instructionTextSSvs",
+                "mangledName": "$s8QRReaderAAC15instructionTextSSvs",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC15instructionTextSSvM",
+                "mangledName": "$s8QRReaderAAC15instructionTextSSvM",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "padding",
+            "printedName": "padding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8QRReaderAAC7padding14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s8QRReaderAAC7padding12CoreGraphics7CGFloatVvp",
+            "moduleName": "QRReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC7padding14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s8QRReaderAAC7padding12CoreGraphics7CGFloatVvg",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC7padding14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s8QRReaderAAC7padding12CoreGraphics7CGFloatVvs",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC7padding14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s8QRReaderAAC7padding12CoreGraphics7CGFloatVvM",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "windowSize",
+            "printedName": "windowSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8QRReaderAAC10windowSize14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s8QRReaderAAC10windowSize12CoreGraphics7CGFloatVvp",
+            "moduleName": "QRReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC10windowSize14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s8QRReaderAAC10windowSize12CoreGraphics7CGFloatVvg",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC10windowSize14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s8QRReaderAAC10windowSize12CoreGraphics7CGFloatVvs",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8QRReaderAAC10windowSize14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s8QRReaderAAC10windowSize12CoreGraphics7CGFloatVvM",
+                "moduleName": "QRReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QRReader",
+                "printedName": "QRReader.QRReader",
+                "usr": "c:@M@QRReader@objc(cs)QRReader"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@QRReader@objc(cs)QRReader(im)init",
+            "mangledName": "$s8QRReaderAACABycfc",
+            "moduleName": "QRReader",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isScanningAvailable",
+            "printedName": "isScanningAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QRReaderAAC19isScanningAvailableSbyF",
+            "mangledName": "$s8QRReaderAAC19isScanningAvailableSbyF",
+            "moduleName": "QRReader",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentScanner",
+            "printedName": "presentScanner(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8QRReaderAAC14presentScanner4from10completionySo16UIViewControllerC_ySSctF",
+            "mangledName": "$s8QRReaderAAC14presentScanner4from10completionySo16UIViewControllerC_ySSctF",
+            "moduleName": "QRReader",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@QRReader@objc(cs)QRReader",
+        "mangledName": "$s8QRReaderAAC",
+        "moduleName": "QRReader",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QRReader"
+      },
+      {
+        "kind": "Import",
+        "name": "VisionKit",
+        "printedName": "VisionKit",
+        "declKind": "Import",
+        "moduleName": "QRReader"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRReader.swift",
+      "kind": "FloatLiteral",
+      "offset": 137,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRReader.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 44,
+      "value": "\"Align the QR code within the frame to scan\""
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 313,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 352,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 357,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 44,
+      "value": "\"Align the QR code within the frame to scan\""
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 512,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1324,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1572,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1624,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mertozseven\/Developer\/QRReader\/QRReader\/QRScannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1647,
+      "length": 21,
+      "value": "\"No QR code detected\""
+    }
+  ]
+}
