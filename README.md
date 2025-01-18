@@ -24,7 +24,7 @@ A lightweight and efficient iOS framework for QR code scanning using Apple's Vis
 
 Add QRReader to your project through Swift Package Manager by adding the following to your Package.swift dependencies:
 
-    .package(url: "https://github.com/yourusername/QRReader.git", from: "1.0.0")
+    .package(url: "https://github.com/mertozseven/QRReader.git", from: "1.0.0")
 
 ### Manual Installation
 
